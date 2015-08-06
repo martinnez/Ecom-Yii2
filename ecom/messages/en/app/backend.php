@@ -1,0 +1,31 @@
+<?php
+	return [
+			'home' => 'Home',
+			'company' => 'Company',
+			'brand' => 'Brand',
+			'brand_category' => 'Manage category of Brand',
+			'product' => 'Product',
+			'category_product' => 'Manage category of product',
+			'category' => 'Category',
+			'order' => 'Order',
+			'transaction' => 'Transaction',
+			'report' => 'Report',
+			'customer' => 'Customer',
+			'staff' => 'Staff',
+			'staff_permission' => 'Staff Permission',
+			'staff_rule' => 'Staff Rule',
+			'anouncement' => 'Anouncement',
+			
+			'cargo' => 'Cargo',
+			'user' => 'User Information',
+			'setting' => 'Setting',
+			'frontend_information' => 'Frontend Information',
+			'backend_information' => 'Backend Information',
+			'add_data' => 'Add Data',
+			'management' => 'Management',
+			'language' => 'Language',
+			'en' => 'English',
+			'th' => 'Thai',
+			
+			'welcome' => 'Welcome',
+	];

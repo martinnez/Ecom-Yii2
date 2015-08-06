@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+/* Reset CSS*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Layout CSS */
+html, body {
+	margin:0; /* This is used to reset any browser-default margins */ 
+	padding:0;
+	height:100%;
+	background: #E6E6E6; /*#D2D7D3;*/
+}
+.wrapper {
+	min-height:100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+    /*border-style: solid;
+    border-width: 5px;*/
+}
+.header {
+	left:0;
+	top:0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/*border-style: solid;
+    border-width: 5px;*/
+}
+.content {
+	background: #E6E6E6;
+}
+
+.footer {
+	width:100%;
+	bottom:0;
+	left:0;
+}
+
+/* Yii2 Component CSS */ 
+
+.btn-borderless {
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+.navbar-collapse {
+	padding-right: 0px;
+  	padding-left: 0px;	
+}
+
+.detail-view th {
+  	width: 20%;
+}
+
+.detail-view td {
+  	width: 80%;
+}
+
+/* layout CSS */
+
+.row-bar {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.row-content {
+	margin-top: 15px;
+}
